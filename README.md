@@ -27,6 +27,8 @@ Mokito  - Testing enviornment
 
 FusedLocationProviderClient - get the current coordinate of user
 
+https://api.openweathermap.org/ - get weather and location data
+
 
 
 
