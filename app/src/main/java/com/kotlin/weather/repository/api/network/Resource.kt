@@ -1,10 +1,5 @@
 package com.kotlin.weather.repository.api.network
 
-
-/**
- * Created by Waheed on 04,November,2019
- */
-
 /**
  * A generic class that holds a value with its loading status.
  * @param <T>
@@ -40,6 +35,5 @@ data class Resource<ResultType>(
          */
         fun <ResultType> error(message: String?, retrofitAPICode: Int): Resource<ResultType> =
             Resource(Status.ERROR, errorMessage = message, retrofitAPICode = retrofitAPICode)
-
     }
 }

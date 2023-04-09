@@ -12,11 +12,11 @@ import retrofit2.http.QueryMap
  */
 
 interface ApiServices {
-
+    // get weather
     @GET("data/2.5/weather")
     fun getWeatherSource(@QueryMap options: Map<String, String>): LiveData<Resource<WeatherModel>>
 
+    // get lat and lon
     @GET("geo/1.0/direct")
     fun getGeoCode(@QueryMap options: Map<String, String>): LiveData<Resource<List<Search>>>
-
 }

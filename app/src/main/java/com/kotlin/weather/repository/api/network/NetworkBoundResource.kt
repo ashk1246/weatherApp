@@ -5,11 +5,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
 
 /**
- * Created by Waheed on 04,November,2019
- */
-
-
-/**
  * A generic class to send loading event up-stream when fetching data
  * only from network.
  *
@@ -56,11 +51,11 @@ abstract class NetworkResource<RequestType> @MainThread constructor() {
 
     fun asLiveData(): LiveData<Resource<RequestType>> = result
 
-
     @MainThread
     private fun setValue(newValue: Resource<RequestType>) {
-        if (result.value != newValue)
+        if (result.value != newValue) {
             result.value = newValue
+        }
     }
 
     @MainThread

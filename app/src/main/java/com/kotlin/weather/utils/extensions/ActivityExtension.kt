@@ -9,7 +9,7 @@ import android.widget.Toast
 import com.kotlin.weather.utils.ToastUtil
 
 /**
- * Created by Waheed on 04,November,2019
+ * Created by Ashok
  */
 
 fun Activity.startActivity(clazz: Class<*>) {

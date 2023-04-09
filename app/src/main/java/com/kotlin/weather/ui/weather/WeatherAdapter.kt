@@ -9,7 +9,7 @@ import com.kotlin.weather.databinding.RowNewsArticleBinding
 import com.kotlin.weather.utils.load
 
 /**
- * Created by Waheed on 04,November,2019
+ * Created by Ashok
  */
 
 /**

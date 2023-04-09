@@ -8,7 +8,7 @@ import android.widget.Toast
 import com.kotlin.weather.R
 
 /**
- * Created by Waheed on 04,November,2019
+ * Created by Ashok
  */
 
 object ToastUtil {

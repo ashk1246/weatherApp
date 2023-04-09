@@ -15,7 +15,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 
 /**
- * Created by Waheed on 04,November,2019
+ * Created by Ashok
  */
 
 fun View.visible() {

@@ -7,7 +7,7 @@ import com.kotlin.weather.repository.api.network.Resource
 import com.kotlin.weather.utils.widget.CompleteRecyclerView
 
 /**
- * Created by Waheed on 04,November,2019
+ * Created by Ashok
  */
 
 

@@ -4,10 +4,6 @@ import retrofit2.Response
 import retrofit2.Retrofit
 
 /**
- * Created by Waheed on 04,November,2019
- */
-
-/**
  * Synthetic sugaring to create Retrofit Service.
  */
 inline fun <reified T> Retrofit.create(): T = create(T::class.java)

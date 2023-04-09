@@ -4,7 +4,7 @@ import android.content.Context
 import android.net.ConnectivityManager
 
 /**
- * Created by Waheed on 04,November,2019
+ * Created by Ashok
  */
 
 object ConnectivityUtil {
