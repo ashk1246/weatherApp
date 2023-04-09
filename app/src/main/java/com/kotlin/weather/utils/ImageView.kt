@@ -13,8 +13,8 @@ fun ImageView.load(context: Context, url: String) {
         .load(url)
         .apply(
             RequestOptions()
-                .placeholder(R.drawable.loading_banner_image)
-                .error(R.drawable.loading_banner_image)
+                .placeholder(R.drawable.ic_baseline_cloud_queue_24)
+                .error(R.drawable.ic_baseline_cloud_queue_24)
                 .centerCrop()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
         )
