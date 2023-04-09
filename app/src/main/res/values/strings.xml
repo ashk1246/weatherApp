@@ -1,0 +1,16 @@
+<resources>
+    <!-- App details -->
+    <string name="app_name">Weather APP</string>
+    <string name="countries">Countries</string>
+    <string name="news_by_countries">New By Countries</string>
+    <string name="weather">Weather</string>
+    <string name="search">Search</string>
+
+    <!-- Content Description -->
+    <string name="news_image_desc">Weather Image</string>
+    <string name="news_image">Weather image</string>
+    <string name="str_test_date">09/04/2023</string>
+
+    <!-- Empty -->
+    <string name="no_news">No Data</string>
+</resources>
