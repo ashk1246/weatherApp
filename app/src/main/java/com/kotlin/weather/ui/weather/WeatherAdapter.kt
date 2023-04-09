@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.example.Weather
-import com.kotlin.weather.databinding.RowNewsArticleBinding
+import com.kotlin.weather.databinding.RowWeatherArticleBinding
 import com.kotlin.weather.utils.load
 
 /**
@@ -29,7 +29,7 @@ class WeatherAdapter : RecyclerView.Adapter<WeatherAdapter.NewsHolder>() {
      */
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NewsHolder {
         val itemBinding =
-            RowNewsArticleBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+            RowWeatherArticleBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return NewsHolder(itemBinding)
     }
 
@@ -47,7 +47,7 @@ class WeatherAdapter : RecyclerView.Adapter<WeatherAdapter.NewsHolder>() {
     /**
      * View Holder Pattern
      */
-    inner class NewsHolder(private val itemBinding: RowNewsArticleBinding) :
+    inner class NewsHolder(private val itemBinding: RowWeatherArticleBinding) :
         RecyclerView.ViewHolder(itemBinding.root) {
         fun bind(newsArticle: Weather) = with(itemView) {
             var url = "https://openweathermap.org/img/wn/${newsArticle.icon}@2x.png"

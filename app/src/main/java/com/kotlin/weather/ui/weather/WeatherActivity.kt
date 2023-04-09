@@ -19,7 +19,7 @@ import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.kotlin.mvvm.utils.extensions.toast
 import com.kotlin.weather.base.BaseActivity
-import com.kotlin.weather.databinding.ActivityNewsArticlesBinding
+import com.kotlin.weather.databinding.ActivityNewWeatherBinding
 import com.kotlin.weather.repository.api.network.Status
 import com.kotlin.weather.ui.search.CountriesActivity
 import com.kotlin.weather.utils.LogUtil
@@ -31,7 +31,7 @@ import dagger.hilt.android.AndroidEntryPoint
  */
 
 @AndroidEntryPoint
-class WeatherActivity : BaseActivity<ActivityNewsArticlesBinding>() {
+class WeatherActivity : BaseActivity<ActivityNewWeatherBinding>() {
 
     private lateinit var adapter: WeatherAdapter
     private val weatherArticleViewModel: WeatherViewModel by viewModels()
@@ -41,8 +41,8 @@ class WeatherActivity : BaseActivity<ActivityNewsArticlesBinding>() {
     /**
      * Create Binding
      */
-    override fun createBinding(): ActivityNewsArticlesBinding {
-        return ActivityNewsArticlesBinding.inflate(layoutInflater)
+    override fun createBinding(): ActivityNewWeatherBinding {
+        return ActivityNewWeatherBinding.inflate(layoutInflater)
     }
 
     /**
@@ -65,8 +65,6 @@ class WeatherActivity : BaseActivity<ActivityNewsArticlesBinding>() {
 
         binding.newsList.adapter = adapter
         binding.newsList.layoutManager = LinearLayoutManager(this)
-
-
     }
     public override fun onStart() {
         super.onStart()

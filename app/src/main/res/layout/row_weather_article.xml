@@ -25,10 +25,10 @@
                 android:id="@+id/ivWeatherImage"
                 android:layout_width="@dimen/image_size"
                 android:layout_height="@dimen/image_size"
-                android:contentDescription="@string/news_image"
                 android:layout_centerInParent="true"
+                android:contentDescription="@string/news_image"
                 android:scaleType="centerCrop"
-                tools:src="@drawable/loading_banner_image" />
+                tools:src="@drawable/ic_baseline_cloud_queue_24" />
 
             <TextView
                 android:id="@+id/tvMain"
