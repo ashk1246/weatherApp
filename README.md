@@ -25,6 +25,10 @@ Glide - Load image
 
 Mokito  - Testing enviornment
 
+FusedLocationProviderClient - get the current coordinate of user
+
+
+
 
 
 
